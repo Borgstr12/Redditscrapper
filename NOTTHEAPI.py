@@ -12,7 +12,7 @@ worksheet = wks.sheet1
 # Or update a single cell
 
 k =0
-for i in Processingdoc.lest:
+for i in Processingdoc.words:
     k+=1
     worksheet.update_acell('B'+str(k), i.get_text(strip = True))
 
